@@ -109,9 +109,9 @@ ul {
 }
 
 .main-full img {
-    width: 80%;
-    height: 80%;
-    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 100px;
     justify-content: center;
 }    
 
@@ -170,4 +170,72 @@ figcaption {
     display:flex;
     justify-content: flex-end;
     font-size: 24px;
+}
+
+.cta {
+    display:flex;
+    background-color: #3882f6;
+    margin: 100px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cta-text {
+    flex: 1;
+}
+
+.cta-button-wrapper {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta button {
+    border:none;
+    outline:none;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.25s ease;
+    font-weight: 900;
+}
+
+.cta button:hover {
+    background-color: #2961bb;
+}
+
+.footer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 80px;
+    margin: 0;
+    padding: 5px 200px;
+}
+
+.footer p {
+    color:#f9faf8;
 }
