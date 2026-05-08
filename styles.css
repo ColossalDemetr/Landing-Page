@@ -17,7 +17,6 @@ body {
     margin: 0;
     min-height: 100vh;
 }
-
 .header {
     display:flex;
     flex-direction: row;
@@ -26,7 +25,7 @@ body {
     background-color: #1F2937;
     height: 80px;
     margin: 0;
-    padding: 0 24px;
+    padding: 5px 200px;
 }
 
 .header .logo {
@@ -42,7 +41,7 @@ body {
 }
 
 a:link {
-    text-decoration: 0;
+    text-decoration: none;
     color: #d3d3d3
 }
 
@@ -51,13 +50,75 @@ a:visited {
 }
 
 a:hover {
-    color: #5f9ea0;
+    color: #6495ED;
 }
 
 
 ul {
+    /* I'm not really sure If I'm doing this right on this one ughh */
     list-style-type: none;
     display:flex;
     gap: 20px;
     padding: 0px;
+}
+
+.main-full {
+    display:flex;
+    background-color: #1F2937;
+    padding: 70px 200px;
+}
+
+.main-text {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.main-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+.main-text h4 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 5px;
+}
+
+.main-text button {
+    cursor: pointer;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    transition: background-color 0.25s ease;
+    border: none;
+    outline: none;
+}
+
+.main-text button:hover {
+    background-color: #3453b1;
+}
+
+.main-full img {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    justify-content: center;
+}    
+
+.main-image {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
